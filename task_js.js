@@ -16,3 +16,6 @@ function paperwork(n, m) {
 function noSpace(x){
     return x.split(' ').join('');
  }
+
+
+
