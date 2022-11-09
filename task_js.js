@@ -36,11 +36,28 @@ function removeExclamationMarks(x){
 
 
 //Trolls are attacking your comment section!
-//A common way to deal with this situation is to remove all of the vowels from the trolls' comments, neutralizing the threat.
-//Your task is to write a function that takes a string and return a new string with all vowels removed.
-//For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".
+//A common way to deal with this situation is to remove all of the vowels from 
+//the trolls' comments, neutralizing the threat.Your task is to write a function 
+//that takes a string and return a new string with all vowels removed. For example,
+//the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".
 
 
 function disemvowel(str) {
     return str.replace( /[aeiou]/gi, '');
+}
+
+
+
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//Given a string of digits, you should replace any digit below 5 with '0' and any 
+//digit 5 and above with '1'. Return the resulting string.Note: input will never be
+//an empty string
+
+
+
+
+function fakeBin(x) {
+    return x.split('').map(n => n < 5 ? 0 : 1).join('');
 }
