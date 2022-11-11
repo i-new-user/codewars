@@ -61,3 +61,16 @@ function disemvowel(str) {
 function fakeBin(x) {
     return x.split('').map(n => n < 5 ? 0 : 1).join('');
 }
+
+
+//-------------------------------------------------------------------------------------------------------
+
+//Create a function that checks if a number n is divisible by two numbers x AND y. 
+//All inputs are positive, non-zero numbers.
+
+function isDivisible(n, x, y) {
+    return n % x === 0 && n % y === 0
+  }
+
+
+
