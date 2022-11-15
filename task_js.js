@@ -233,3 +233,16 @@ const stringToNumber = function(str){
 function minMax(arr){
     return [Math.min(...arr), Math.max(...arr)];
 }
+
+
+
+//Friend or Foe?
+function friend(friends){
+    let newArr = [];
+   for(let elem of friends){
+     if(elem.length == 4){
+       newArr.push(elem);
+     } 
+   }
+    return newArr;
+}
