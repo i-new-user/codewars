@@ -219,4 +219,10 @@ function enough(cap, on, wait) {
 function booleanToString(b){
     return String(b);
 }
-fourteen
+
+
+
+//Convert a String to a Number!
+const stringToNumber = function(str){
+    return +str;
+}
