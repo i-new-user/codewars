@@ -226,3 +226,10 @@ function booleanToString(b){
 const stringToNumber = function(str){
     return +str;
 }
+
+
+
+//The highest profit wins!
+function minMax(arr){
+    return [Math.min(...arr), Math.max(...arr)];
+}
