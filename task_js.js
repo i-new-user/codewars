@@ -215,5 +215,8 @@ function enough(cap, on, wait) {
 
 
 
-
+//Convert a Boolean to a String
+function booleanToString(b){
+    return String(b);
+}
 fourteen
