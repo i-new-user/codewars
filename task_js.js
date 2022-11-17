@@ -236,7 +236,7 @@ function minMax(arr){
 
 
 
-//Friend or Foe?
+//Friend or Foe?c
 function friend(friends){
     let newArr = [];
    for(let elem of friends){
@@ -274,3 +274,10 @@ function findMultiples(integer, limit) {
     }
     return arr;
 }
+
+//Function 2 - squaring an argument
+const square = function(x) {
+    return x * x;
+};
+console.log(square(12));
+  
