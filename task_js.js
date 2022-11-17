@@ -281,3 +281,9 @@ const square = function(x) {
 };
 console.log(square(12));
   
+
+//Filter out the geese
+function gooseFilter(birds){
+    let geese =  ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"]
+    return birds.filter(item=> !geese.includes(item))
+}
