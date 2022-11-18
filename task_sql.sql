@@ -49,3 +49,9 @@ WHERE
   country IN('United States of America', 'Canada') 
 GROUP BY country
 ORDER BY products DESC
+
+
+--SQL Basics: Simple JOIN with COUNT
+SELECT p.id, p.name, count(*) as toy_count FROM people p JOIN toys t
+ON p.id = t.people_id
+GROUP BY p.id, p.name;
