@@ -292,3 +292,12 @@ function gooseFilter(birds){
 function sumStr(a,b) {
     return String(+a + +b);
 }
+
+//Counting sheep...
+function countSheeps(arrayOfSheep) {
+    let counter = 0
+    for(let i = 0; i < arrayOfSheep.length; i++) {
+        if(arrayOfSheep[i]) counter += 1
+    }
+    return counter
+}
