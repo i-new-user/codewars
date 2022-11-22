@@ -324,3 +324,8 @@ function hello(name){
 var a = "code";
 var b = "wa.rs";
 var name = a + b;
+
+
+
+//Basic Training: Add item to an Array
+websites.push('codewars');
