@@ -329,3 +329,11 @@ var name = a + b;
 
 //Basic Training: Add item to an Array
 websites.push('codewars');
+
+
+
+//BASIC: Making Six Toast.
+function sixToast(num) {
+    return num == 6 ? 0 :
+           num > 6 ? num - 6 : 6 - num; 
+  }
