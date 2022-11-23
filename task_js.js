@@ -348,3 +348,8 @@ function unusualFive() {
 function addLength(str) {
     return str.split(' ').map( elem => `${elem} ${elem.length}`); 
 }
+
+//Array plus array
+function arrayPlusArray(arr1, arr2) {
+    return  arr1.concat(arr2).reduce( (acc, el) => acc + el ); 
+}
