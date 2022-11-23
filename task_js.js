@@ -336,4 +336,10 @@ websites.push('codewars');
 function sixToast(num) {
     return num == 6 ? 0 :
            num > 6 ? num - 6 : 6 - num; 
-  }
+}
+
+
+//5 without numbers !!
+function unusualFive() {
+    return 'qqqqq'.length;
+}
