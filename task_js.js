@@ -343,3 +343,8 @@ function sixToast(num) {
 function unusualFive() {
     return 'qqqqq'.length;
 }
+
+//Add Length
+function addLength(str) {
+    return str.split(' ').map( elem => `${elem} ${elem.length}`); 
+}
