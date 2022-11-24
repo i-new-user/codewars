@@ -65,3 +65,6 @@ FROM decimals
 SELECT sqrt(number1) AS root,
        log(number2) AS log
 FROM decimals;
+
+--SQL Grasshopper: Select Columns
+SELECT custid, custname, custstate FROM customers;
