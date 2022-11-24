@@ -59,3 +59,9 @@ GROUP BY p.id, p.name;
 --SQL Basics: Mod
 SELECT mod(number1, number2) AS mod
 FROM decimals
+
+
+----------------------------
+SELECT sqrt(number1) AS root,
+       log(number2) AS log
+FROM decimals;
